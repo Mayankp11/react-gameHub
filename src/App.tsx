@@ -16,12 +16,12 @@ const App = () => {
       {/* <Show> is useful to restrict when its component should be displayed
      here: above="lg" means, the GridItem "aside" will only be shown to lg screens and above & not on mobile devices*/}
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
+        <GridItem area="aside" >
           Aside
         </GridItem>
       </Show>
 
-      <GridItem area="main" bg="dodgerblue">
+      <GridItem area="main" >
         Main
       </GridItem>
     </Grid>
