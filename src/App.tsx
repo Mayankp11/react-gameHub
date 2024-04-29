@@ -9,8 +9,8 @@ const App = () => {
         lg: `"nav nav" "aside main"`,
       }}
     >
-      <GridItem area="nav" >
-        <NavBar/>
+      <GridItem area="nav">
+        <NavBar />
       </GridItem>
 
       {/* <Show> is useful to restrict when its component should be displayed
