@@ -34,17 +34,17 @@ const useGames = () => {
   useEffect(() => {
     const controller = new AbortController();
 
-  setLoading(true);
+    setLoading(true);
 
     apiClient
       .get<FetchGamesResponse>("/games", { signal: controller.signal })
       .then((res) => {
-        setGames(res.data.results)
+        setGames(res.data.results);
         setLoading(false);
       })
       .catch((err) => {
         if (err instanceof CanceledError) return;
-        setError(err.message)
+        setError(err.message);
         setLoading(false);
       });
 
