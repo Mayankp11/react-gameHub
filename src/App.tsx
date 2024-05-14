@@ -10,6 +10,11 @@ const App = () => {
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
       }}
+
+      templateColumns={{
+        base : '1fr', //1 fraction
+        lg : '200px 1fr'
+      }}
     >
       <GridItem area="nav">
         <NavBar />
@@ -18,7 +23,7 @@ const App = () => {
       {/* <Show> is useful to restrict when its component should be displayed
      here: above="lg" means, the GridItem "aside" will only be shown to lg screens and above & not on mobile devices*/}
       <Show above="lg">
-        <GridItem area="aside">
+        <GridItem area="aside" paddingX={3}>
           <GenreList />
         </GridItem>
       </Show>

@@ -2,7 +2,7 @@ import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 import { Game } from "../hooks/useGames";
 import PlatformIconList from "./PlatformIconList";
 import CriticScore from "./CriticScore";
-import getCroppedImageUrl from "../services/image-url";
+
 
 interface Props {
   game: Game;
@@ -11,7 +11,7 @@ interface Props {
 // The cards will be replaced in for bullet-dots
 const GameCard = ({ game }: Props) => {
   return (
-    <Card width='250px' borderRadius={10} overflow={"hidden"}>
+    <Card width='100%' borderRadius={10} overflow={"hidden"}>
       <Image src={game.background_image} />
       <CardBody>
         <Heading fontSize={"2xl"}>{game.name}</Heading>
