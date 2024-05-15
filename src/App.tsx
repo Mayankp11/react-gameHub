@@ -27,7 +27,7 @@ const App = () => {
      here: above="lg" means, the GridItem "aside" will only be shown to lg screens and above & not on mobile devices*/}
       <Show above="lg">
         <GridItem area="aside" paddingX={3}>
-          <GenreList onSelectGenre={(genre) => setSelectedGenre(genre)} />
+          <GenreList selectedGenre={selectedGenre} onSelectGenre={(genre) => setSelectedGenre(genre)} />
         </GridItem>
       </Show>
 
