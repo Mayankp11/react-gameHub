@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+Project Name: " GameHub "
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
 
-Currently, two official plugins are available:
+This project is a web application built with React, Vite, TypeScript, JavaScript, and ChakraUI. It allows users to explore and discover video games, providing information such as name, rating, and playable platforms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
 
-## Expanding the ESLint configuration
+Game Listing: Displays a comprehensive list of games from the RAWG API.
+Game Cards: Each game is presented in a visually appealing card format, showcasing essential details:
+Game Name
+User Rating
+Available Platforms (icons or text)
+Genre Filtering: Offers a list of genres to refine the displayed games, allowing users to find titles within their preferred categories.
+Platform Filtering: This provides the option to filter games based on specific platforms, helping users discover titles compatible with their systems.
+Dark Mode/Light Mode Toggle: Enhances user experience by offering a choice between a light or dark theme for the webpage.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Development and Deployment:
+Built with the modern frontend development stack of React, Vite, TypeScript, and ChakraUI for a smooth and efficient development process.
+Deployed on Vercel for a seamless and readily accessible web experience: [Link to your Vercel deployment] (react-game-qootl9x47-mayanks-projects-22acc447.vercel.app)
+Local Development:
 
-- Configure the top-level `parserOptions` property like this:
+To run the project locally in your development environment, follow these steps:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Clone this repository.
+Navigate to the project directory.
+Install project dependencies using npm install.
+Start the development server using npm run dev.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feedback and Contribution:
+I'm actively seeking your valuable feedback to enhance this project. Please feel free to leave comments, suggestions, or bug reports, and I'll be happy to consider them for further improvements.
+
+This project is also open to contributions. If you'd like to be involved in its development, feel free to submit pull requests with your enhancements or bug fixes.
+
+Thank you for your interest!
