@@ -11,7 +11,15 @@ GameHub is a web application for exploring a wide range of video games. It offer
 - ChakraUI
 
 ---
+## User Interface example:
+
 ![image](https://github.com/Mayankp11/react-gameHub/assets/100968519/0734a26d-6d9c-4bb9-b76e-98879a681025)
+
+![image](https://github.com/Mayankp11/react-gameHub/assets/100968519/2bc61257-8022-43cd-8dc6-cab4b6f02e98)
+
+
+![image](https://github.com/Mayankp11/react-gameHub/assets/100968519/7af8bf64-dab9-4e49-ab3b-15d6645b282a)
+
 
 
 
