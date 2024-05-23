@@ -1,8 +1,20 @@
-Project Name: " GameHub "
+# GameHub
 
-Description:
+GameHub is a web application for exploring a wide range of video games. It offers a user-friendly interface and is connected to the RawG video game database, the largest video game database available.
 
-This project is a web application built with React, Vite, TypeScript, JavaScript, and ChakraUI. It allows users to explore and discover video games, providing information such as name, rating, and playable platforms.
+## Technologies Used
+
+- React
+- Vite
+- TypeScript
+- JavaScript
+- ChakraUI
+
+---
+![image](https://github.com/Mayankp11/react-gameHub/assets/100968519/0734a26d-6d9c-4bb9-b76e-98879a681025)
+
+
+
 
 Features:
 
