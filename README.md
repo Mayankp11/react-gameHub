@@ -21,12 +21,13 @@ GameHub is a web application for exploring a wide range of video games. It offer
 ![image](https://github.com/Mayankp11/react-gameHub/assets/100968519/7af8bf64-dab9-4e49-ab3b-15d6645b282a)
 
 
-Features
--- Search a Game: Flexible choice of searching for a specific game.
--- Platform Option: List of platforms where the game can be played and an option to select a specific platform game.
--- Rating: Displays rating per game along with a logo assigned for a specific range of rating.
--- Genre: Option to select between a list of genres.
--- Toggle Button: Switch between dark and light mode.
+## Features
+
+- **Search a Game**: Flexible choice of searching for a specific game.
+- **Platform Option**: List of platforms where the game can be played and an option to select a specific platform game.
+- **Rating**: Displays rating per game along with a logo assigned for a specific range of rating.
+- **Genre**: Option to select between a list of genres.
+- **Toggle Button**: Switch between dark and light mode.
 
 Deployed the application on Vercel for a seamless and readily accessible web experience: 
 https://react-game-hub-lilac.vercel.app/
